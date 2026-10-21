@@ -17,7 +17,7 @@ The CSA describes cooperation between Ghanaian institutions and international la
 The authority acknowledges contributions from international partners while arguing that public accounts should accurately recognize the roles of Ghanaian institutions and other agencies involved. It calls for clarification of the public account of the operation.
 
 DATA NOTE:
-This file contains a summary for research preparation, not a verbatim transcript. Obtain and preserve the full original statement before using it as source text for sentiment analysis.",2,2,Neutral,Ghana-led framing
+This file contains a summary for research preparation, not a verbatim transcript. Obtain and preserve the full original statement before using it as source text for sentiment analysis.",1,1,Neutral,Ghana-led framing
 3news_operation_blackout,News Article,"Summary: Cyber Security Authority Rejects Portrayal of Operation Blackout as FBI-Led
 
 Source: 3News Ghana
@@ -38,7 +38,7 @@ Main narrative: The article presents the operation as Ghana-led, with internatio
 
 Sentiment and framing: The coverage emphasizes national sovereignty, Ghanaian institutional leadership, lawful cooperation, and accurate recognition of participating agencies. Its tone is formal and explanatory, while the CSA's response challenges the portrayal of the operation as independently FBI-led.
 
-Data note: This is a research summary of the 3News article, not the full original text. Claims about leadership, arrests, and rescued victims are attributed to the CSA as reported by 3News.",5,8,Negative,Ghana-led framing
+Data note: This is a research summary of the 3News article, not the full original text. Claims about leadership, arrests, and rescued victims are attributed to the CSA as reported by 3News.",1,2,Negative,Ghana-led framing
 citi_news_fbi_account_operation_blackout,News Article,"# Summary: FBI's Account of Operation Blackout in Ghana
 
 **Source:** Citi Newsroom  
@@ -59,7 +59,7 @@ The FBI's public framing placed the Ghana operation within its broader internati
 
 ## Research Note
 
-This is a summary of a news report about the FBI Director's public statements; it is not the original FBI statement or a verbatim transcript of his post. The reported figures and descriptions should be attributed to the sources cited in the article and verified against the original records where possible.",1,7,Negative,FBI/international framing
+This is a summary of a news report about the FBI Director's public statements; it is not the original FBI statement or a verbatim transcript of his post. The reported figures and descriptions should be attributed to the sources cited in the article and verified against the original records where possible.",1,1,Neutral,FBI/international framing
 citi_news_operation_cyber_hunt,News Article,"# Summary: CSA Rejects FBI’s Account of Ghana’s Operation Cyber Hunt
 
 **Source:** Citi Newsroom  
@@ -88,7 +88,7 @@ The report emphasizes Ghanaian leadership, national sovereignty, lawful cooperat
 
 ## Research Note
 
-This is a summary of the Citi Newsroom report, not the full article. Claims about operational leadership, arrests, rescues, and seized items are attributed to the CSA as reported by Citi Newsroom. The report should be analyzed as a media account of the disagreement, rather than independent proof of every claim.",4,10,Negative,Ghana-led framing
+This is a summary of the Citi Newsroom report, not the full article. Claims about operational leadership, arrests, rescues, and seized items are attributed to the CSA as reported by Citi Newsroom. The report should be analyzed as a media account of the disagreement, rather than independent proof of every claim.",1,2,Negative,Ghana-led framing
 myjoyonline_operation_blackout,News Article,"# Summary: Ghana Led Operation Blackout, Not FBI
 
 **Source:** MyJoyOnline (article text credits Graphic Online)  
@@ -104,4 +104,4 @@ The CSA said investigations were ongoing and that efforts were being made to rep
 
 **Main narrative:** The CSA presents Operation Blackout as a Ghana-led operation supported by international partners, challenging the impression that the FBI was in command.
 
-**Sentiment and framing:** The report emphasizes Ghana’s sovereignty, local leadership and the need for accurate recognition of the roles played by participating agencies.",4,7,Negative,Ghana-led framing
+**Sentiment and framing:** The report emphasizes Ghana’s sovereignty, local leadership and the need for accurate recognition of the roles played by participating agencies.",1,1,Neutral,Ghana-led framing

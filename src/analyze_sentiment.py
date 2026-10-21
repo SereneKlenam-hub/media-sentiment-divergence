@@ -16,13 +16,12 @@ if "text" not in df.columns:
 
 # Define simple keyword-based sentiment indicators
 positive_words = [
-    "success", "successful", "rescued", "protect",
-    "cooperation", "cooperation", "progress"
+    "success", "successful", "protect",
+    "cooperation", "progress"
 ]
 
 negative_words = [
-    "fraud", "scam", "crime", "exploited",
-    "dispute", "reject", "challenged", "arrested"
+    "dispute", "reject", "challenged"
 ]
 
 def count_words(text, word_list):
