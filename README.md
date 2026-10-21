@@ -50,19 +50,21 @@ The classifications are based on simple keyword matching. They do not fully capt
 
 ## Preliminary Results
 
-The current script assigned these sentiment labels:
+Sentiment label	        Number of sources
+Neutral                           3
+Negative	                      2
+Positive	                      0
+Total	                          5
 
-- Neutral: 1 source.
-- Negative: 4 sources.
-- Positive: 0 sources.
+Keep the narrative framing results as:
+Framing category	                Number of sources
+Ghana-led framing	                          4
+FBI/international framing	                  1
+Cooperation or mixed framing	              0
+Total	                                      5
 
-The narrative-framing classifier assigned:
+These are preliminary results from a small dataset of five source summaries, not full articles. The sentiment and framing labels are based on keyword counts and should not be interpreted as definitive measures of media sentiment or bias. Some sources also report similar perspectives, so they do not represent five independent viewpoints.
 
-- Ghana-led framing: 4 sources.
-- FBI/international framing: 1 source.
-- Cooperation/mixed framing: 0 sources.
-
-These counts describe the output of the current script on the five collected summaries. They are not measurements of overall media sentiment or the proportion of media supporting either narrative.
 
 ## Project Structure
 
