@@ -8,7 +8,13 @@ INPUT_FILE = PROJECT_DIR / "data" / "processed" / "articles_dataset.csv"
 OUTPUT_DIR = PROJECT_DIR / "data" / "processed"
 
 # Load the prepared dataset
+if not INPUT_FILE.exists():
+    raise FileNotFoundError("The prepared dataset was not found. Run prepare_data.py first.")
+
 df = pd.read_csv(INPUT_FILE)
+
+if df.empty:
+    raise ValueError("The dataset is empty. Check your raw data files.")
 
 # Check that the required column exists
 if "text" not in df.columns:
