@@ -4,14 +4,14 @@
 
 This project explores how selected news reports and an official statement frame Ghana's Operation Cyber Hunt, also referred to as Operation Blackout. It compares Ghana-led and FBI/international framing and applies a simple keyword-based method to classify sentiment.
 
-This is an exploratory research project. The current analysis uses five source summaries rather than a large collection of full-text articles or public comments.
+This is an exploratory research project. The current analysis uses five prepared source summaries rather than a large collection of full-text articles or public comments.
 
 ## Objectives
 
 - Examine differences in narrative framing across selected sources.
 - Apply a basic keyword-based sentiment classification method.
 - Compare how sources describe Ghanaian leadership and international involvement.
-- Present preliminary findings in a chart and written summary.
+- Present preliminary findings in charts and a written summary.
 - Document the limitations of automated text analysis.
 
 ## Research Questions
@@ -37,7 +37,8 @@ The dataset is small, and some sources report the same official position. The fi
 - pandas
 - matplotlib
 - CSV files
-- Git and GitHub (for version control and project sharing)
+- Git and GitHub
+- Jupyter Notebook
 
 ## Methodology
 
@@ -45,68 +46,28 @@ The dataset is small, and some sources report the same official position. The fi
 2. Count selected positive and negative keywords to assign preliminary sentiment labels.
 3. Count selected framing keywords to classify each entry as Ghana-led framing, FBI/international framing, or cooperation/mixed framing.
 4. Save the results to CSV and create a narrative-framing chart.
+5. Use a Jupyter Notebook to explore the dataset, visualize distributions, and summarize findings.
 
 The classifications are based on simple keyword matching. They do not fully capture context, sarcasm, quotations, or the difference between an article's own position and the position it reports.
 
 ## Preliminary Results
 
-Sentiment label	        Number of sources
-Neutral                           3
-Negative	                      2
-Positive	                      0
-Total	                          5
+### Sentiment Distribution
 
-Keep the narrative framing results as:
-Framing category	                Number of sources
-Ghana-led framing	                          4
-FBI/international framing	                  1
-Cooperation or mixed framing	              0
-Total	                                      5
+| Sentiment label | Number of sources |
+|---|---:|
+| Neutral | 3 |
+| Negative | 2 |
+| Positive | 0 |
+| **Total** | **5** |
 
-These are preliminary results from a small dataset of five source summaries, not full articles. The sentiment and framing labels are based on keyword counts and should not be interpreted as definitive measures of media sentiment or bias. Some sources also report similar perspectives, so they do not represent five independent viewpoints.
+### Narrative Framing Distribution
 
+| Framing category | Number of sources |
+|---|---:|
+| Ghana-led framing | 4 |
+| FBI/international framing | 1 |
+| Cooperation or mixed framing | 0 |
+| **Total** | **5** |
 
-## Project Structure
-
-```text
-media-sentiment-divergence/
-├── Data/
-│   ├── raw/
-│   │   ├── articles/
-│   │   ├── csa_statement.txt
-│   │   └── source_log.csv
-│   └── processed/
-│       ├── articles_dataset.csv
-│       ├── sentiment_results.csv
-│       └── narrative_framing_chart.png
-├── docs/
-│   └── results_summary.md
-├── src/
-│   ├── prepare_data.py
-│   └── analyze_sentiment.py
-├── notebooks/
-├── dashboard/
-└── README.md
-```
-
-## Limitations and Ethics
-
-- The dataset currently contains only five summaries.
-- Summaries are not equivalent to analyzing complete original articles.
-- Some sources overlap in the position they report.
-- Keyword-based sentiment labels can misclassify text.
-- Framing classifications depend on the keywords selected in the script.
-- Claims made by sources should be distinguished from independently verified facts.
-- Source attribution and publication dates should be preserved, and source material should be used responsibly.
-
-## Future Improvements
-
-- Collect and verify additional original articles and official statements.
-- Record source URLs, dates, authors, and source categories consistently.
-- Improve and validate sentiment and framing classification.
-- Analyze recurring themes and keywords by source group.
-- Consider an interactive dashboard after the dataset and analysis have been strengthened.
-
-## Current Project Status
-
-The initial dataset preparation, keyword-based analysis, chart generation, and preliminary results summary are complete. Validation, documentation review, and GitHub publication remain part of the project workflow.
+These are preliminary results from five source summaries, not full articles. The sentiment and framing labels are based on keyword counts and should not be interpreted as definitive measures of media sentiment or bias. Some sources also report similar.
